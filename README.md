@@ -18,4 +18,9 @@ Here are the commands used to pull these pages:
     http://thechoice.blogs.nytimes.com/2009/09/10/harvarddean-part1
     
     
-    wget --adjust-extension --span-hosts --convert-links --backup-converted --page-requisites http://thechoice.blogs.nytimes.com/2009/09/10/harvarddean-part1
+    wget \
+    --adjust-extension \
+    --span-hosts \
+    --convert-links \
+    --backup-converted \
+    --page-requisites http://thechoice.blogs.nytimes.com/2009/09/10/harvarddean-part1
